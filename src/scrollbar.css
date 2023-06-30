@@ -1,0 +1,20 @@
+/* Hide the default scrollbar */
+.scrollable-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Create a custom scrollbar track */
+.scrollable-container {
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #F5F5F5;
+}
+
+/* Style the scrollbar thumb */
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #888888;
+}
+
+/* Style the scrollbar thumb on hover */
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
